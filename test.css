@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#111,#222);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    clip-path: circle(40% at right 70%);
+
+    z-index: -1;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    background: rgba(225, 225, 255,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav .logo{ 
+    color:rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    
+}
+.logo:hover{
+    color: rosybrown;
+    font-size: 50px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: red;
+}    
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: -20%;
+    bottom: 100%;
+    margin: auto;
+}
+.content{
+    color: rgb(255, 255, 255);
+}
+/*.content .text .h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;*/
+    
+}
+
+  .h22{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 580;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .my{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .ali{
+    color: rgb(251, 253, 255);
+    text-decoration: none;
+  } 
+  .ali:hover{
+    color: rgb(113, 113, 224);
+  } 
+  div a:hover{
+    color: rgb(113, 113, 224);
+  }
+  .moo{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .moo:hover{
+    color: rgb(113, 113, 224);
+    
+  }
+  .i1{
+    color: rgb(251, 255, 255);
+    text-decoration: none;
+  }
+  .i1:hover{
+    color: red;
+  }
+  .img2:hover{
+    font-size: 500px;
+  }
+
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
